@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+
+<body>
+    <h1>bấm nút để hiện bảng </h1>
+    <div id="bangcuuchuong">
+        <button id="btn2" class="btn btn-info"> bảng cửu chương</button>
+    </div>
+
+    <br>
+    <h1>nhập số 1-100 </h1>
+    <div class="dothi">
+        <div class="form-group col-3">
+            <input type="text" class="form-control mb-3 anh" placeholder="Anh">
+            <input type="text" class="form-control mb-3 phap" placeholder="Phap">
+            <input type="text" class="form-control mb-3 nga" placeholder="Nga">
+            <input type="text" class="form-control mb-3 nhat" placeholder="Nhat">
+        </div>
+        <!-- <button id="btndothi" type="button" class="btn btn-primary">ve do thi</button><br>
+         -->
+        <canvas id="myChart" style="width:100%; max-width:400px; height:200px;"></canvas>
+    </div><br>
+
+    <br>
+    <h1>Máy tính</h1>
+    <div class="maytinh">
+        <div class="form-group" style="display: flex; gap: 1rem;">
+            <input id="input1" type="text" class="form-control col-2"><br>
+            <button id="cong" type="button" class="btn btn-info">cộng</button>
+            <button id="tru" type="button" class="btn btn-info">trừ</button>
+            <button id="nhan" type="button" class="btn btn-info">nhân</button>
+            <button id="chia" type="button" class="btn btn-info">chia</button>
+            <button id="mu" type="button" class="btn btn-info">mũ</button>
+            <input id="input2" type="text" class="form-control col-2">
+            <span>=</span>
+            <input id="input3" type="text" class="form-control col-2">
+        </div>
+    </div>
+
+
+
+    <br><br>
+    <h1>bấm đồng hồ</h1>
+    <div class="dongho">
+        <h3 id="displaywatch">aaa</h3>
+        <button id="batdau" type="button" class="btn btn-info">bat dau</button>
+        <button id="dunglai" type="button" class="btn btn-info">dung lai</button>
+        <button id="reset" type="button" class="btn btn-info">reset</button>
+    </div>
+
+
+    <script src="./test.js"></script>
+</body>
+
+</html>
